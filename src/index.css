@@ -1,8 +1,10 @@
+  
 @import "~materialize-css/dist/css/materialize.min.css";
 
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(251, 251, 251);
 }
 
 .todo {
@@ -26,4 +28,3 @@ body {
 .todo i {
   z-index: 2;
 }
-

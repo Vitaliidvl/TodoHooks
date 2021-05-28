@@ -1,10 +1,10 @@
-export default function reducer(state, action) {
+export default function reducer(state = [], action) {
   switch (action.type) {
     case 'add':
       return [
         ...state,
         {
-          id: Date.now(),
+          id: Math.random(),
           title: action.payload,
           completed: false,
         },
